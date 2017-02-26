@@ -118,7 +118,7 @@ int main() {
 					break;
 				}
 
-				// Sorcery
+				
 				if (turn == 0) currentChar = '.';
 				map[vCoord][hCoord] = currentChar;
 				destChar = map[vCoord][hCoord - 1];
@@ -141,7 +141,7 @@ int main() {
 					break;
 				}
 
-				// Really, really good luck
+				
 				if (turn == 0) currentChar = '.';
 				map[vCoord][hCoord] = currentChar;
 				destChar = map[vCoord + 1][hCoord];
@@ -165,7 +165,7 @@ int main() {
 					break;
 				}
 
-				// This section of the code was outsourced to Harry Potter
+				
 				if (turn == 0) currentChar = '.';
 				map[vCoord][hCoord] = currentChar;
 				destChar = map[vCoord][hCoord + 1];
